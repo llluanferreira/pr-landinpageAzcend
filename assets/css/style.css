@@ -1,0 +1,541 @@
+:root {
+    --var1: 78px;
+    --var2: #eaf5fe;
+    --var3: #5597d4;
+}
+
+body {
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95)), url('/assets/img/fundosite.png') no-repeat center center fixed;  */
+    background-image: url(/assets/img/fundosite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7A7A7A;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.navbar {
+
+    padding-top: 25px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-linklogin {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    padding: 17px 32px 17px 32px;
+}
+
+.nav-linksuporte {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #61CE7000;
+    border-radius: 6px 6px 6px 6px;
+    padding: 17px 32px 17px 32px;
+}
+
+
+
+
+
+.blocoinicial {
+    gap: 16px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.textoinicial {
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.lead {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.segundotextosite {
+    color: white;
+}
+
+.terceirotextosite {
+    color: white;
+}
+
+.gad {
+    color: #007bff;
+
+}
+
+.textosegundaparte {
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.textovideo {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Fundo transparente com leve branco */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Borda clara */
+    border-radius: 15px;
+    /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Sombra elegante */
+    padding: 20px;
+    /* Espaçamento interno */
+    display: inline-block;
+    /* Centraliza o conteúdo */
+}
+
+.pp {
+    color: blue;
+}
+
+.h3comece {
+    color: white;
+}
+
+.h4comece {
+    color: white;
+}
+
+.pc {
+    color: white;
+}
+
+.h2checkep {
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.h2sistemarec {
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.paragrafopossistema {
+    olor: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.card {
+    background-color: #FFFFFF0F;
+    border-radius: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF38;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 60px 72px 60px 72px;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    display: flex;
+}
+
+.pfinal {
+    color: #11A3FF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.h4final {
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.btn-outline-info {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 23px 0px rgba(69.00000000000001, 172.00000000000017, 255, 0.73);
+    padding: 17px 32px 17px 32px;
+    animation: 3.4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 3.4s infinite normal none running textura;
+    background-image: linear-gradient(90deg, #6ff4ff, #0381e6, #6ff4ff, #0381e6);
+    background-size: 400% 200%;
+    transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94) 0s;
+    transition-behavior: normal;
+    transition-duration: 1.6s;
+    transition-timing-function: cubic-bezier(0.55, 0.1, 0.47, 0.94);
+    transition-delay: 0s;
+    color: #fff;
+
+}
+
+
+
+.btn-navbarbuttom {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 700;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 23px 0px rgba(69.00000000000001, 172.00000000000017, 255, 0.73);
+    padding: 17px 32px 17px 32px;
+    animation: 3.4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 3.4s infinite normal none running textura;
+    background-image: linear-gradient(90deg, #6ff4ff, #0381e6, #6ff4ff, #0381e6);
+    background-size: 400% 200%;
+    transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94) 0s;
+    transition-behavior: normal;
+    transition-duration: 1.6s;
+    transition-timing-function: cubic-bezier(0.55, 0.1, 0.47, 0.94);
+    transition-delay: 0s;
+
+}
+
+.btn-navbarbuttom:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.top60 {
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.titulocard {
+    font-size: 1.25rem;
+    color: white
+}
+
+.cardtexto {
+    color: white
+}
+
+.textocommargem {
+    margin-top: 100px;
+}
+
+.gif-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif-estilizado {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.textosegundaparte2 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.video {
+    margin-top: 50px;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+
+
+.vender-hoje-container .conteudo-texto {
+    flex: 1;
+    max-width: 50%;
+}
+
+.subtitulo {
+    color: #11A3FF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.titulo {
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.descricao {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.vender-hoje-container .btn-outline-info {
+    border-color: #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.vender-hoje-container .btn-outline-info:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.vender-hoje-container .imagem-direita {
+    flex: 1;
+    text-align: right;
+}
+
+.imagem-ajustada {
+    width: 73%;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.taxa-conversao-container {
+    padding: 50px 0;
+}
+
+.grafico-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grafico-imagem {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.titulo-conversao {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.taxa-porcentagem {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.descricao-conversao {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+/* Estilo da seção final */
+.pfinal {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.h4final {
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.btn-criar-conta {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 23px 0px rgba(69.00000000000001, 172.00000000000017, 255, 0.73);
+    padding: 17px 32px 17px 32px;
+    animation: 3.4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 3.4s infinite normal none running textura;
+    background-image: linear-gradient(90deg, #6ff4ff, #0381e6, #6ff4ff, #0381e6);
+    background-size: 400% 200%;
+    transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94) 0s;
+    transition-behavior: normal;
+    transition-duration: 1.6s;
+    transition-timing-function: cubic-bezier(0.55, 0.1, 0.47, 0.94);
+    transition-delay: 0s;
+}
+
+.btn-criar-conta:hover {
+    background: #0056b3;
+}
+
+
+.rodape {
+    background-color: #1a1a1a;
+    padding: 30px 0;
+    color: #ccc;
+}
+
+.logo-rodape {
+    max-width: 150px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icone-social {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.icone-social:hover {
+    transform: scale(1.2);
+}
+
+.info-rodape {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+
+.spinner {
+    width: var(--var1);
+    height: var(--var1);
+    position: absolute;
+    top: 0%;
+    left: 48%;
+    margin-top: -(var(--var1)/ 2);
+    margin-left: -(var(--var1)/ 2);
+    border-radius: 50%;
+    /* border: 5px solid #eaf5fe;  */
+    border-right-color: var(--var3);
+    animation: rotateSpinner 3s linear infinite;
+}
+
+@keyframes rotateSpinner {
+    from {
+        /* transform: rotate(360deg); */
+        margin-top: -50px;
+    }
+
+    to {
+        /* transform: rotate(360deg); */
+        margin-top: 50px;
+    }
+}
+
+.frasecomalogo {
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.logoprefrase {
+    width: 16%;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.grafico-imagem {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.grafico-container {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.titulo-conversao {
+    color: #11A3FF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.taxa-porcentagem {
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.descricao-conversao {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21px;
+}
